@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-exec go build
+exec GO111MODULE=on go build
