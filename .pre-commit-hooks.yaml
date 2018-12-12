@@ -60,4 +60,10 @@
     entry: run-go-build.sh
     files: '\.go$'
     language: 'script'
-    description: "Runs `go build`, requires golang"    
+    description: "Runs `go build`, requires golang"
+-   id: js-eslint
+    name: 'js-eslint'
+    entry: run-js-eslint.sh
+    files: '\.js$'
+    language: 'script'
+    description: "Runs `npm run lint`"
