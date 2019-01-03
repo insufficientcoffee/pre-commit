@@ -67,3 +67,9 @@
     files: '\.js$'
     language: 'script'
     description: "Runs `npm run lint`"
+-   id: js-tests
+    name: 'js-tests'
+    entry: run-js-tests.sh
+    files: '\.js$'
+    language: 'script'
+    description: "Runs `npm run test`"
